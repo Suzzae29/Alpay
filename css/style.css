@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@500&family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:url(../images/world-map-dots\ 1.png);
+    background-size:cover;
+
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+
+}
+
+.contact .content h2{
+    font-size: 36px;
+    font-weight:bolder;
+    color: #a8d049;
+}
+
+.contact .content p{
+    font-weight:300;
+    color: #000;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background:#a8d049 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #000;
+    flex-direction: column;
+    font-weight: 300;
+
+}
+
+
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #a8d049;
+
+}
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background:#fff;
+
+}
+
+.contactForm h2{
+    font-size :30px;
+    color: #a8d049;
+    font-weight: bolder;
+
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom:  2px solid #333;
+    outline: none;
+    resize: none;
+
+}
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: rgb(122, 122, 122);
+
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #a8d049;
+    font-size: 12px;
+    transform: translateY(-20px);
+
+}
+
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #a8d049;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-radius:50px;
+
+}
+
+
+.aboutUs{
+    background: url(/images/friends\ \(2\).png) no-repeat left;
+    background-color: #a8d049;
+    background-size: 55%;
+    padding: 100px 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color:#fdfdfd;
+    padding: 150px;
+}
+
+
+
+ .text{
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 10px
+}
+
+button{
+    background-color: #a8d049;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 20px
+    
+}
+
+
+button:hover{
+    text-decoration: underline;
+
+}
+
+.main-container{
+    text-align: center;
+    background: #fff;
+    
+
+}
+
+h3{
+    padding-top: 40px;
+    margin: auto;
+    line-height: 40px;
+   
+}
+
+
+ .sub-container{
+    margin: auto;
+    padding: 48px 0;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+ .services{
+    margin: 10px;
+    padding: 22px;
+    width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+    flex: wrap;
+
+}
+
+
+.services:hover{
+    background: #ddd;
+    border-radius: 10px;
+
+}
+
+
+.services img{
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+
+.paragraph{
+    line-height: 30px;
+    font-weight: lighter
+}
+
+
+.heading{
+    background: #c0da86;
+}
+
+
+.heading h1{
+    font-family:'Allura', cursive; ;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team .teamMember{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width:250px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+
+.team .teamMember h3{
+    color: #a8d049;
+    font-size: 26px;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.team .teamMember p.role{
+    color: rgb(90, 73, 73);
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    font-family: 'Raleway', sans-serif; 
+}
+
+.team .teamMember p.role p{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.team .teamMember .teamImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(175, 100, 100);
+}
+
+.team .teamMember .teamImage img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.team .teamMember span a{
+    color: #337ab7;
+}
+
+
+
+
+
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .container .contactInfo{
+        margin-bottom: 40px;
+        
+    }
+
+    .container .contactInfo, .contactForm{
+        width: 100%;
+    }
+
+
+    .inner-container{
+        padding: 50px;
+    }
+
+}
+
+@media  screen and (max-width:991px) {
+    .aboutUs{
+        background-size: 100%;
+        padding: 50px 40px;
+    }
+
+    .inner-container{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 991px){
+    .main-container .sub-container .services{
+        width: 100%;
+    }
+}
